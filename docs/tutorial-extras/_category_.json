@@ -1,7 +1,8 @@
 {
-  "label": "Tutorial - Extras",
+  "label": "Advanced Features",
   "position": 3,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Explore advanced capabilities and customization options in Replit AI."
   }
 }

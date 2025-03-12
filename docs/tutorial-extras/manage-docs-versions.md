@@ -2,54 +2,55 @@
 sidebar_position: 1
 ---
 
-# Manage Docs Versions
+# Application Templates
 
-Docusaurus can manage multiple versions of your docs.
+Learn how to leverage pre-built templates to jumpstart your application development in Replit AI.
 
-## Create a docs version
+## Understanding Templates
 
-Release a version 1.0 of your project:
+Templates are pre-configured application frameworks that:
 
-```bash
-npm run docusaurus docs:version 1.0
-```
+- **Streamline development** by providing a functional starting point
+- **Demonstrate best practices** for specific application types
+- **Include common features** that most applications need
+- **Reduce development time** through reuse of proven patterns
 
-The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.
+## Available Template Categories
 
-Your docs now have 2 versions:
+Replit AI offers templates in several categories:
 
-- `1.0` at `http://localhost:3000/docs/` for the version 1.0 docs
-- `current` at `http://localhost:3000/docs/next/` for the **upcoming, unreleased docs**
+### Web Applications
+- **E-commerce solutions** for online stores
+- **Content management systems** for blogs and websites
+- **Portfolio templates** for showcasing work
+- **Landing page templates** for marketing
 
-## Add a Version Dropdown
+### Mobile-Ready Applications
+- **Progressive web apps** for cross-platform experiences
+- **Mobile-first designs** optimized for smaller screens
+- **Responsive layouts** that adapt to any device
 
-To navigate seamlessly across versions, add a version dropdown.
+### Data-Focused Applications
+- **Dashboard templates** for data visualization
+- **Survey and form builders** for data collection
+- **Data management systems** for organizing information
 
-Modify the `docusaurus.config.js` file:
+## Customizing Templates
 
-```js title="docusaurus.config.js"
-export default {
-  themeConfig: {
-    navbar: {
-      items: [
-        // highlight-start
-        {
-          type: 'docsVersionDropdown',
-        },
-        // highlight-end
-      ],
-    },
-  },
-};
-```
+When working with templates:
 
-The docs version dropdown appears in your navbar:
+1. **Select a base template** that most closely matches your needs
+2. **Describe your customizations** in natural language
+3. **Request specific feature additions or removals**
+4. **Refine the visual design** to match your brand
 
-![Docs Version Dropdown](./img/docsVersionDropdown.png)
+![Template Selection Interface](./img/docsVersionDropdown.png)
 
-## Update an existing version
+## Creating Your Own Templates
 
-It is possible to edit versioned docs in their respective folder:
+After developing successful applications, you can:
 
-- `versioned_docs/version-1.0/hello.md` updates `http://localhost:3000/docs/hello`
-- `docs/hello.md` updates `http://localhost:3000/docs/next/hello`
+1. **Save configurations** for future use
+2. **Document key features** for reference
+3. **Create reusable components** for similar projects
+4. **Share templates** with your team

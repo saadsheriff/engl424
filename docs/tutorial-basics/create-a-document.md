@@ -2,56 +2,38 @@
 sidebar_position: 2
 ---
 
-# Create a Document
+# Creating Your First Application
 
-Documents are **groups of pages** connected through:
+Learn how to create your first application using Replit AI in just a few simple steps.
 
-- a **sidebar**
-- **previous/next navigation**
-- **versioning**
+## Setting Up Your Workspace
 
-## Create your first Doc
+Before creating your application, you'll need to:
 
-Create a Markdown file at `docs/hello.md`:
+1. **Log into your Replit account**
+2. **Navigate to the AI dashboard**
+3. **Create a new workspace**
 
-```md title="docs/hello.md"
-# Hello
+## Describing Your Application
 
-This is my **first Docusaurus document**!
-```
+Replit AI works by understanding your description of what you want to build:
 
-A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).
+1. **Provide a detailed description** of your application's purpose and functionality
+2. **Specify user interactions** and key features
+3. **Request any specific design elements** you want included
 
-## Configure the Sidebar
+## Reviewing Generated Code
 
-Docusaurus automatically **creates a sidebar** from the `docs` folder.
+While you don't need to understand code, Replit AI allows you to:
 
-Add metadata to customize the sidebar label and position:
+1. **Preview your application** as it's being built
+2. **Request modifications** through natural language
+3. **Track development progress** in real-time
 
-```md title="docs/hello.md" {1-4}
----
-sidebar_label: 'Hi!'
-sidebar_position: 3
----
+## Testing Your Application
 
-# Hello
+Once your application is generated:
 
-This is my **first Docusaurus document**!
-```
-
-It is also possible to create your sidebar explicitly in `sidebars.js`:
-
-```js title="sidebars.js"
-export default {
-  tutorialSidebar: [
-    'intro',
-    // highlight-next-line
-    'hello',
-    {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
-    },
-  ],
-};
-```
+1. **Test all key features** to ensure they work as expected
+2. **Request adjustments** for any functionality that needs improvement
+3. **Share your application** with others for feedback

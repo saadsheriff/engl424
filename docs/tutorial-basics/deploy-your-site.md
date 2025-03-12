@@ -2,30 +2,42 @@
 sidebar_position: 5
 ---
 
-# Deploy your site
+# Deploying Your Application
 
-Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).
+Learn how to deploy your Replit AI-created application so others can use it.
 
-It builds your site as simple **static HTML, JavaScript and CSS files**.
+## Preparing for Deployment
 
-## Build your site
+Before deploying your application:
 
-Build your site **for production**:
+1. **Finalize all features** and ensure they work as expected
+2. **Complete all testing** to identify and fix any issues
+3. **Review privacy settings** for data management
+4. **Confirm resource requirements** are within your plan limits
 
-```bash
-npm run build
-```
+## Deployment Options
 
-The static files are generated in the `build` folder.
+Replit AI offers multiple deployment options:
 
-## Deploy your site
+1. **One-click deployment** to Replit's hosting service
+2. **Export options** for self-hosting on other platforms
+3. **Custom domain integration** for professional applications
+4. **Public/private visibility settings** to control access
 
-Test your production build locally:
+## Sharing Your Application
 
-```bash
-npm run serve
-```
+After deployment, you can share your application through:
 
-The `build` folder is now served at [http://localhost:3000/](http://localhost:3000/).
+1. **Direct links** to your application
+2. **Embedding options** for websites or blogs
+3. **Access control settings** for private applications
+4. **Social sharing tools** to promote your creation
 
-You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).
+## Monitoring and Management
+
+Once deployed, you can:
+
+1. **Track usage statistics** to understand user behavior
+2. **Monitor performance** and uptime
+3. **Deploy updates** when you make changes
+4. **Implement analytics** for detailed insights
